@@ -24,6 +24,11 @@ import { getOrganizations } from '@/http/routes/orgs/get-organizations'
 import { shutdownOrganization } from '@/http/routes/orgs/shutdown-organization'
 import { transferOrganization } from '@/http/routes/orgs/transfer-organization'
 import { updateOrganization } from '@/http/routes/orgs/update-organization'
+import { createProject } from '@/http/routes/projects/create-project'
+import { deleteProject } from '@/http/routes/projects/delete-project'
+import { getProject } from '@/http/routes/projects/get-project'
+import { getProjects } from '@/http/routes/projects/get-projects'
+import { updateProject } from '@/http/routes/projects/update-project'
 
 import { createAccount } from './routes/auth/create-account'
 
@@ -78,6 +83,12 @@ app.register(getOrganizations)
 app.register(updateOrganization)
 app.register(shutdownOrganization)
 app.register(transferOrganization)
+
+app.register(createProject)
+app.register(deleteProject)
+app.register(getProject)
+app.register(getProjects)
+app.register(updateProject)
 
 app.listen({ port: env.SERVER_PORT }).then(() => {
   console.log('HTTP server running!')
