@@ -1,6 +1,6 @@
 ## :page_with_curl: Projeto
 
-![SaaS RBAC Gif]()
+![SaaS RBAC Gif](https://github.com/Rodrigo001-dev/next-saas-rbac/blob/main/.github/images/next-saas-rbac.gif)
 
 > <b>SaaS RBAC</b> É uma aplicação SaaS(Software as a Service) que no caso é um software para comercializar com várias empresas, nele foi utilizado RBAC(Role-based access control) que basicamente é um sistema de controle de acesso baseado em funções(ADMIN, USER, MANAGER). Essa é uma aplicação voltada para gestão de projetos de empresas, onde um usuário pode ter funções diferentes em diferentes organizações, dentro desse monorepo foi utilizado o Next 15(Release Candidate) e o React 19(Release Candidate) com todas as suas novidades.
 
